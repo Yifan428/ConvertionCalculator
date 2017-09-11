@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4EC78B1F66F7DF00AF232A /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4EC78A1F66F7DE00AF232A /* SavedViewController.swift */; };
 		3CD003821F61BCD600A76A5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD003811F61BCD600A76A5C /* AppDelegate.swift */; };
 		3CD003841F61BCD600A76A5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD003831F61BCD600A76A5C /* ViewController.swift */; };
 		3CD003871F61BCD600A76A5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD003851F61BCD600A76A5C /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		3CD0038F1F61BCD600A76A5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD0038D1F61BCD600A76A5C /* LaunchScreen.storyboard */; };
 		3CD0039A1F61BCD600A76A5C /* ConvertionCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD003991F61BCD600A76A5C /* ConvertionCalculatorTests.swift */; };
 		3CD003A51F61BCD600A76A5C /* ConvertionCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD003A41F61BCD600A76A5C /* ConvertionCalculatorUITests.swift */; };
-		3CF666C71F662D6300114E8D /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF666C61F662D6300114E8D /* SavedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C4EC78A1F66F7DE00AF232A /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
 		3CD0037E1F61BCD600A76A5C /* ConvertionCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvertionCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD003811F61BCD600A76A5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CD003831F61BCD600A76A5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		3CD003A01F61BCD600A76A5C /* ConvertionCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertionCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD003A41F61BCD600A76A5C /* ConvertionCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertionCalculatorUITests.swift; sourceTree = "<group>"; };
 		3CD003A61F61BCD600A76A5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CF666C61F662D6300114E8D /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +103,12 @@
 			children = (
 				3CD003811F61BCD600A76A5C /* AppDelegate.swift */,
 				3CD003831F61BCD600A76A5C /* ViewController.swift */,
-				3CF666C61F662D6300114E8D /* SavedViewController.swift */,
 				3CD003851F61BCD600A76A5C /* Main.storyboard */,
 				3CD0038B1F61BCD600A76A5C /* Assets.xcassets */,
 				3CD0038D1F61BCD600A76A5C /* LaunchScreen.storyboard */,
 				3CD003901F61BCD600A76A5C /* Info.plist */,
 				3CD003881F61BCD600A76A5C /* ConvertionCalculator.xcdatamodeld */,
+				3C4EC78A1F66F7DE00AF232A /* SavedViewController.swift */,
 			);
 			path = ConvertionCalculator;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 			files = (
 				3CD0038A1F61BCD600A76A5C /* ConvertionCalculator.xcdatamodeld in Sources */,
 				3CD003841F61BCD600A76A5C /* ViewController.swift in Sources */,
-				3CF666C71F662D6300114E8D /* SavedViewController.swift in Sources */,
+				3C4EC78B1F66F7DF00AF232A /* SavedViewController.swift in Sources */,
 				3CD003821F61BCD600A76A5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

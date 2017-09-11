@@ -227,10 +227,10 @@
             </objects>
             <point key="canvasLocation" x="-151" y="50"/>
         </scene>
-        <!--View Controller-->
+        <!--Saved View Controller-->
         <scene sceneID="HKN-OT-dvV">
             <objects>
-                <viewController id="b3s-jv-HBQ" sceneMemberID="viewController">
+                <viewController id="b3s-jv-HBQ" customClass="SavedViewController" customModule="ConvertionCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mi6-kf-YRg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
