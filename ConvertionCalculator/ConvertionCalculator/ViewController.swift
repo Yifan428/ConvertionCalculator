@@ -14,7 +14,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     var pickerData: [[String]] = [[String]]()
     
-        override func viewDidLoad() {
+    override func viewDidLoad() {
             super.viewDidLoad()
             // Do any additional setup after loading the view, typically from a nib.
             
@@ -22,23 +22,25 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             self.picker.dataSource = self
 
             // Input data into the Array:
-            pickerData = [["Item 1"]]
-    }
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
+            pickerData = [["inch","yard"],["in","yrd"]]
     }
     
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return pickerData.count
-    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return pickerData[row]
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 2
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return pickerData.count
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return pickerData[component][row]
     }
 
 
