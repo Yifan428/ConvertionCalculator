@@ -64,10 +64,6 @@
                                         <subviews>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pr9-qB-m9r">
                                                 <rect key="frame" x="0.0" y="0.0" width="187.5" height="79.5"/>
-                                                <connections>
-                                                    <outlet property="dataSource" destination="JSf-0S-8XZ" id="rug-09-9tZ"/>
-                                                    <outlet property="delegate" destination="JSf-0S-8XZ" id="dtn-pV-1tW"/>
-                                                </connections>
                                             </pickerView>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jbI-4G-CIW">
                                                 <rect key="frame" x="187.5" y="0.0" width="187.5" height="79.5"/>
@@ -269,6 +265,7 @@
                     <navigationItem key="navigationItem" id="Zhi-m1-dd5"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="picker" destination="pr9-qB-m9r" id="ICk-6M-xbk"/>
                         <outlet property="view" destination="Zsf-NP-Vug" id="HH2-h0-hXQ"/>
                     </connections>
                 </viewController>
