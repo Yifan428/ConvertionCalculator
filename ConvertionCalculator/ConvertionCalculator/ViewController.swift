@@ -16,6 +16,8 @@ class ViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "CovertCalculator"
         // Do any additional setup after loading the view, typically from a nib.
 //        self.picker.delegate = self
 //        self.picker.dataSource = self
